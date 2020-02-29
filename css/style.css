@@ -1,0 +1,190 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+h1 {
+    font-size: 72px;
+}
+h1 + p {
+    font-size: 30px;
+    
+}
+p {
+    font-size: 36px;
+    
+}
+h2 {
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1.2;
+}
+a {
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    text-align: center;   
+    cursor: pointer;
+    color: #fff;
+}
+.title-main {
+    width: 750px;
+    padding-top: 288px;
+    padding-left: 220px;
+    
+}
+.text-main{
+    width: 640px;
+    font-weight: 900;
+    height: 70px;
+    padding-left: 220px;
+}
+.title-ava {
+    padding-top: 115px;
+    padding-left: 71px;
+    margin: 0;
+    text-transform: uppercase; 
+}
+.text-ava {
+    font-size: 36px;
+    font-weight: 100;
+    padding-top: 45px;
+    padding-left: 71px;
+    width: 580px;
+    line-height: 1.2;
+   
+}
+.title{
+    padding-left: 210px;
+    padding-top: 125px;
+    margin: 0;
+    border: 0;
+}
+.text{
+    margin: 0;
+    padding-top: 44px;
+    padding-left: 210px;
+    width: 510px;
+
+}
+.link{
+    width: 250px;
+    border: 2px solid #fff;
+    margin-top: 53px;
+    margin-left: 210px;
+    padding: 20px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.link:hover{
+    opacity: 80%;
+}
+.title-itunes{
+    padding-left: 60px;
+    padding-top: 125px;
+    margin: 0;
+    border: 0;
+}
+.text-buy{
+    margin: 0;
+    padding-top: 44px;
+    padding-left: 60px;
+    width: 510px;
+}
+.link-buy{
+
+    width: 250px;
+    border: 2px solid #fff;
+    margin-top: 53px;
+    margin-left: 62px;
+    padding: 20px;
+    border-bottom-left-radius: 40px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.link-buy:hover{
+    opacity: 80%;
+}
+.grid {
+    display: grid;
+    grid-template-areas: "a a a a" "a a a a" "b b c c" "d e f g" "h h j i" "m m n n";
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-item {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.grid-item-main {
+    background-image: url(../img/bg-main.png);
+    grid-area: a;
+    height: 900px;
+}
+.grid-item-red {
+    background-image: url(../img/bg-red.png);
+    grid-area: b;
+    height: 500px;
+}
+.grid-item-lgray {
+    background-color: #f3f1ef;
+    grid-area: c;
+    height: 500px;
+}
+.grid-item-pic1 {
+    background-image: url(../img/bg-one.png);
+    grid-area: d;
+    height: 515px;
+    
+}
+.grid-item-pic2 {
+    background-image: url(../img/bg-two.png);
+    grid-area: e;
+    height: 515px;
+    
+
+}
+.grid-item-pic3 {
+    background-image: url(../img/bg-shoes.png);
+    grid-area: f;
+    height: 515px;
+   
+}
+.grid-item-pic4 {
+    background-image: url(../img/bg-four.png);
+    grid-area: g;
+    height: 515px;
+    
+}
+.grid-item-blue-text {
+    grid-area: h;
+    height: 500px;
+}
+.grid-item-pic5 {
+    background-image: url(../img/bg-five.png);
+    grid-area: j;
+    height: 500px;
+}
+.grid-item-bluebg {
+    grid-area: i;
+    height: 500px;
+}
+.grid-item-blue {
+    background-color: #3f729b;
+    color: #fff;
+    height: 500px;
+}
+.grid-item-green {
+    background-color: #2ebd59;
+    color: #fff;
+    grid-area: m;
+    height: 515px;
+}
+.grid-item-gray {
+    background-color: #282b2f;
+    color: #fff;
+    grid-area: n;
+    height: 515px;
+}
